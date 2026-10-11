@@ -1,0 +1,39 @@
+# ===== 依赖（第三方包，npm install 可重装，不入库）=====
+node_modules/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+env3.*
+
+# ===== 环境变量（含 API key，绝不提交）=====
+.env
+.env.preview
+.env.production
+
+# ===== 构建产物 =====
+dist/
+build/
+*.map
+
+# ===== 日志 =====
+logs/
+*.log
+
+# ===== IDE / OS / 工具 =====
+.workbuddy/
+.idea/
+.vscode/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# ===== 运行时数据（用户上传文件，不入库）=====
+ai-interview-backend/uploads/
+
+# ===== 项目资料（面试准备材料，与运行无关，不入库）=====
+Interview/

@@ -1,0 +1,24 @@
+# backend 特有（通用项见根目录 .gitignore）
+site
+.netlify
+test.db
+log.txt
+Pipfile.lock
+poetry.lock
+docs_build/
+site_build/
+docs.zip
+archive.zip
+.cache
+celerybeat-schedule.db
+app/nltk_data/
+shell/
+mcp/
+.mcp.json
+.claude
+resources/prepwise-figma/
+*~
+.*.sw?
+
+# Linux docker-compose 二进制（部署工具，不入库）
+docker-compose-linux-x86_64
